@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>test2</title>
+    <link href="/2022/12/20/test2/"/>
+    <url>/2022/12/20/test2/</url>
+    
+    <content type="html"><![CDATA[<p>测试七牛云图床</p><p>这是一张图片<img src="https://images.olioolii.xyz/20221220123850.png" alt="七牛云图床上传图片"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Test</title>
     <link href="/2022/12/20/Test/"/>
     <url>/2022/12/20/Test/</url>
