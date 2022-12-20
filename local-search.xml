@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Skills</title>
+    <link href="/2022/12/20/Skills/"/>
+    <url>/2022/12/20/Skills/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Skills-by-olioolii"><a href="#Skills-by-olioolii" class="headerlink" title="Skills by olioolii"></a>Skills by olioolii</h1><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><h3 id="1-cmd终端代理-针对Clash端口-7890"><a href="#1-cmd终端代理-针对Clash端口-7890" class="headerlink" title="1. cmd终端代理(针对Clash端口:7890)"></a>1. cmd终端代理(针对Clash端口:7890)</h3><p><a href="https://weilining.github.io/294.html#%E5%AE%9E%E6%88%98">终端使用代理加速的正确方式（Clash） | Ln’s Blog (weilining.github.io)</a></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">开启终端代理</span><br>set http_proxy=http://127.0.0.1:7890 &amp;&amp; set https_proxy=http://127.0.0.1:7890<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">还原</span><br>set http_proxy=  &amp;&amp; set https_proxy= <br></code></pre></td></tr></table></figure><h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><h3 id="1-同窗口打开多个终端"><a href="#1-同窗口打开多个终端" class="headerlink" title="1. 同窗口打开多个终端"></a>1. 同窗口打开多个终端</h3><p><code>ctr+shift+T</code></p><h2 id="Spotify"><a href="#Spotify" class="headerlink" title="Spotify"></a>Spotify</h2><h3 id="1-安装Spicetify"><a href="#1-安装Spicetify" class="headerlink" title="1. 安装Spicetify"></a>1. 安装Spicetify</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 | iex<br><br>iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex<br></code></pre></td></tr></table></figure><h3 id="2-全屏显示-歌词插件"><a href="#2-全屏显示-歌词插件" class="headerlink" title="2. 全屏显示+歌词插件"></a>2. 全屏显示+歌词插件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 全屏显示</span><br>spicetify config extensions fullAppDisplay.js<br>spicetify apply<br><span class="hljs-comment"># 歌词插件</span><br>spicetify config custom_apps lyrics-plus <br>spicetify apply<br></code></pre></td></tr></table></figure><h3 id="3-Spotify更新后扩展商城消失"><a href="#3-Spotify更新后扩展商城消失" class="headerlink" title="3. Spotify更新后扩展商城消失"></a>3. Spotify更新后扩展商城消失</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">开启终端代理</span><br>set http_proxy=http://127.0.0.1:7890 &amp;&amp; set https_proxy=http://127.0.0.1:7890<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">更新spicetify</span><br>spicetify upgrade<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">恢复之前配置 选择<span class="hljs-string">&#x27;y&#x27;</span></span><br>spicetify restore backup apply<br></code></pre></td></tr></table></figure><h2 id="Blog"><a href="#Blog" class="headerlink" title="Blog"></a>Blog</h2><h3 id="创建一篇文章post"><a href="#创建一篇文章post" class="headerlink" title="创建一篇文章post"></a>创建一篇文章post</h3><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs haxe">hexo <span class="hljs-keyword">new</span> <span class="hljs-type">post</span> <span class="hljs-string">&quot;XXX&quot;</span><br></code></pre></td></tr></table></figure><h3 id="发布博客"><a href="#发布博客" class="headerlink" title="发布博客"></a>发布博客</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">清理缓存</span><br>hexo clean<br><span class="hljs-meta prompt_"># </span><span class="language-bash">本地端口</span><br>hexo s<br><span class="hljs-meta prompt_"># </span><span class="language-bash">github-pages</span><br>hexo g -d<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Skill</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Skill</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Introduction</title>
     <link href="/2022/12/20/Introduction/"/>
     <url>/2022/12/20/Introduction/</url>
