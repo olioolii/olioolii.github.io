@@ -8,7 +8,7 @@
     <link href="/2022/12/20/Test/"/>
     <url>/2022/12/20/Test/</url>
     
-    <content type="html"><![CDATA[<h1 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h1><p>这是一篇测试文章</p><p>下面是一张测试图片<img src="/2022/12/20/Test/test.png" alt="image"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h1><p>这是一篇测试文章</p><p>下面是一张测试图片<img src="/Test/test.png" alt="image"></p>]]></content>
     
     
     
